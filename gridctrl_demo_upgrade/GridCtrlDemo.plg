@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GridCtrlDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAB.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/GridCtrlDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\GridCtrl_src\GridCtrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/GridCtrlDemo.pdb" /machine:I386 /out:"Release/GridCtrlDemo.exe" 
+".\Release\GridCell.obj"
+".\Release\GridCellBase.obj"
+".\Release\GridCtrl.obj"
+".\Release\GridDropTarget.obj"
+".\Release\InPlaceEdit.obj"
+".\Release\TitleTip.obj"
+".\Release\GridCellCheck.obj"
+".\Release\GridCellCombo.obj"
+".\Release\GridCellDateTime.obj"
+".\Release\GridURLCell.obj"
+".\Release\CheckComboBox.obj"
+".\Release\GridCellCheckCombo.obj"
+".\Release\GridCellNumeric.obj"
+".\Release\GridCtrlDemo.obj"
+".\Release\GridCtrlDemoDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\GridCtrlDemo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAC.tmp"
+<h3>Output Window</h3>
+Compiling...
+GridCtrl.cpp
+G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\GridCtrl_src\GridCtrl.cpp(113) : warning C4652: compiler option 'Generate Browser Info' inconsistent with precompiled header; current command-line option will override that defined in the precompiled header
+Linking...
+
+
+
+<h3>Results</h3>
+GridCtrlDemo.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

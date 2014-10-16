@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GridViewDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc09 /fo"Debug/GridViewDemo.res" /d "_DEBUG" /d "_AFXDLL" "G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\gridctrl_in_view\GridViewDemo.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/GridViewDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\GridCtrl_src\GridCell.cpp"
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\GridCtrl_src\GridCellBase.cpp"
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\GridCtrl_src\GridCtrl.cpp"
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\GridCtrl_src\GridDropTarget.cpp"
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\GridCtrl_src\InPlaceEdit.cpp"
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\GridCtrl_src\TitleTip.cpp"
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\gridctrl_in_view\ChildFrm.cpp"
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\gridctrl_in_view\GridViewDemo.cpp"
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\gridctrl_in_view\GridViewDemoDoc.cpp"
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\gridctrl_in_view\GridViewDemoView.cpp"
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\gridctrl_in_view\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/GridViewDemo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"G:\VS2008\C++代码\MFC_Grid\合并单元格\gridctrl_demo224\gridctrl_in_view\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/GridViewDemo.pdb" /debug /machine:I386 /out:"Debug/GridViewDemo.exe" /pdbtype:sept 
+".\Debug\GridCell.obj"
+".\Debug\GridCellBase.obj"
+".\Debug\GridCtrl.obj"
+".\Debug\GridDropTarget.obj"
+".\Debug\InPlaceEdit.obj"
+".\Debug\TitleTip.obj"
+".\Debug\ChildFrm.obj"
+".\Debug\GridViewDemo.obj"
+".\Debug\GridViewDemoDoc.obj"
+".\Debug\GridViewDemoView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\GridViewDemo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GridCell.cpp
+GridCellBase.cpp
+GridCtrl.cpp
+GridDropTarget.cpp
+InPlaceEdit.cpp
+TitleTip.cpp
+ChildFrm.cpp
+GridViewDemo.cpp
+GridViewDemoDoc.cpp
+GridViewDemoView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GridViewDemo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
